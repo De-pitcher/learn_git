@@ -29,6 +29,7 @@ public class AppointmentKeeper {
             for (int i = 0; i < database[count3].length; ++i) {
                 System.out.println(" " + database[count3][i]);
             }
+            
             System.out.println("Enter a day to see what is scheduled" +
                     ", or " + QUIT + " to quit");
             choose = input.nextInt();
