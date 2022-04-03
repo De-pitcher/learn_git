@@ -12,6 +12,7 @@ public class AppointmentKeeper {
         int count = 0;
         while (count < database.length) {
             int count2 = 0;
+			
             while (count2 < database[count].length) {
                 System.out.println("Enter an hour and the " +
                         "schedule you want to add >>");
